@@ -7,6 +7,7 @@ import App from './App.vue'
 import router from './router'
 import VeeValidationPlugin from './includes/validation'
 import { auth } from './includes/firebase'
+import Icon from './directives/icon.js'
 
 let app
 auth.onAuthStateChanged(() => {
@@ -16,6 +17,8 @@ auth.onAuthStateChanged(() => {
     app.use(createPinia())
     app.use(router)
     app.use(VeeValidationPlugin)
+    app.directive('icon', Icon)
+
     app.mount('#app')
   }
 })
