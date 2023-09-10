@@ -8,11 +8,12 @@
       ></div>
       <div class="container mx-auto">
         <div class="text-white main-header-content">
-          <h1 class="font-bold text-5xl mb-5">Listen to Great Music!</h1>
+          <h1 class="font-bold text-5xl mb-5">{{ $t('home.listen') }}</h1>
           <p class="w-full md:w-8/12 mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et dolor mollis,
-            congue augue non, venenatis elit. Nunc justo eros, suscipit ac aliquet imperdiet,
-            venenatis et sapien. Duis sed magna pulvinar, fringilla lorem eget, ullamcorper urna.
+            Unlock a world of music. Handpicked playlists, top charts, and new releases. Your
+            adventure in sound starts here.Connect with artists, explore new genres, and create
+            endless playlists. Your gateway to a universe of sound, personalized just for you.
+            Experience music like never before.
           </p>
         </div>
       </div>
