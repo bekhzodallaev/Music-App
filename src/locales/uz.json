@@ -1,5 +1,8 @@
 {
   "home": {
     "listen": "Ajoyib musiqalarni tinglang!"
+  },
+  "manage": {
+    "my_songs": "Mening musiqalarim"
   }
 }

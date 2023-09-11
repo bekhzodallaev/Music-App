@@ -7,6 +7,7 @@
       consequuntur libero alias impedit numquam odio nobis dolorem temporibus totam, a aliquid.
       Dicta laudantium ad eveniet.
     </p>
+    <base-button />
   </div>
 </template>
 
